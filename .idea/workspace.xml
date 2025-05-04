@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="777c6fc2-55de-4a87-8f76-ea336b413a6b" name="Changes" comment="LLD of an expenseTracker">
+    <list default="true" id="777c6fc2-55de-4a87-8f76-ea336b413a6b" name="Changes" comment="Updates to the expense Tracker.">
+      <change afterPath="$PROJECT_DIR$/src/com/expenseTrackerShortVersion/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/expenseTracker/BalanceSheetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/expenseTracker/BalanceSheetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/expenseTracker/Expense/Split/Split.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/expenseTracker/Expense/Split/Split.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/expenseTracker/Splitwise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/expenseTracker/Splitwise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/expenseTracker/User/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/expenseTracker/User/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -96,11 +94,20 @@
       <option name="project" value="LOCAL" />
       <updated>1746300371576</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updates to the expense Tracker.">
+      <option name="closed" value="true" />
+      <created>1746335414209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746335414209</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LLD of an expenseTracker" />
-    <option name="LAST_COMMIT_MESSAGE" value="LLD of an expenseTracker" />
+    <MESSAGE value="Updates to the expense Tracker." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates to the expense Tracker." />
   </component>
 </project>

@@ -4,6 +4,7 @@ import com.expenseTracker.Expense.Split.Split;
 import com.expenseTracker.User.User;
 
 import java.util.List;
+import java.util.Map;
 
 public class BalanceSheetController {
     public void updateUserExpenseBalanceSheet(User paidBy, List<Split> splitDetails, double expenseAmount) {
@@ -48,15 +49,21 @@ public class BalanceSheetController {
 
     public void showBalanceSheetOfUser(User user){
         System.out.println("--------------------------------------------");
-        System.out.println("Balance sheet of user: "+ user.getUserId());
+        System.out.println("Balance sheet of user : "+ user.getUserId());
 
         UserExpenseBalanceSheet userExpenseBalanceSheet=user.getUserExpenseBalanceSheet();
-        System.out.println(userExpenseBalanceSheet);
-        //print map of user vs balance
+        System.out.println("Your total Expense : "+userExpenseBalanceSheet.getTotalYourExpense());
+        System.out.println("You get back total : "+userExpenseBalanceSheet.getTotalYouGetBack());
+        System.out.println("You total owe : "+userExpenseBalanceSheet.getTotalYouOwe());
+        System.out.println("Total Payment made : "+userExpenseBalanceSheet.getTotalPayment());
+        for(Map.Entry<String ,Balance> entry: userExpenseBalanceSheet.getUserVsBalance().entrySet()) {
+            String userID = entry.getKey();
+            Balance balance = entry.getValue();
 
-
-
-
+            System.out.println("User ID: " + userID + " You get back: " + balance.getAmountGetBack() + " You owe: " + balance.getAmountOwe());
+        }
         System.out.println("--------------------------");
     }
+
+
 }

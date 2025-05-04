@@ -21,4 +21,8 @@ public class UserController {
         }
         return null;
     }
+
+    public List<User> getAllUsers() {
+        return userList;
+    }
 }

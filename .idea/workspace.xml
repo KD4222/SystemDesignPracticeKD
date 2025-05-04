@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="777c6fc2-55de-4a87-8f76-ea336b413a6b" name="Changes" comment="Updates to the expense Tracker.">
-      <change afterPath="$PROJECT_DIR$/src/com/expenseTrackerShortVersion/Main.java" afterDir="false" />
+    <list default="true" id="777c6fc2-55de-4a87-8f76-ea336b413a6b" name="Changes" comment="Various important Low Level Designs implementation using Java">
+      <change afterPath="$PROJECT_DIR$/src/com/snackAndLadder/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/snackAndLadder/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/snackAndLadder/GameManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/snackAndLadder/Ladder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/snackAndLadder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/snackAndLadder/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/snackAndLadder/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/snackAndLadder/SnakeAndLadderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/snackAndLadder/SnakeAndLadderGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +59,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Debug",
+    "Application.com.snackAndLadder.Main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.com.snackAndLadder.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.expenseTracker.Main" />
       <module name="systemDesignLLD" />
@@ -71,8 +80,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.snackAndLadder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.snackAndLadder.Main" />
+      <module name="systemDesignLLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snackAndLadder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.snackAndLadder.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -102,12 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1746335414209</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Various important Low Level Designs implementation using Java">
+      <option name="closed" value="true" />
+      <created>1746338872752</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746338872752</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LLD of an expenseTracker" />
     <MESSAGE value="Updates to the expense Tracker." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates to the expense Tracker." />
+    <MESSAGE value="Various important Low Level Designs implementation using Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Various important Low Level Designs implementation using Java" />
   </component>
 </project>

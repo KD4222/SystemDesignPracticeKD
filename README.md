@@ -16,6 +16,15 @@ This repo is all about learning, experimenting, and having fun with system archi
 - **Refer back for future interviews or projects**
 
 ---
+## ✅ LLD Projects Completed
+
+- **Expense Tracker**  
+  _A simple system to track group expenses and manage balances among friends._
+
+- **SnakeAndLadder**  
+  _A classic board game implemented with object-oriented design principles._
+
+---
 
 ## ⭐️ Why Share This?
 
